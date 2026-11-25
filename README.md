@@ -8,6 +8,8 @@ page view and writes that answer into the Status column:
 - an empty Status cell gets the flight's status, such as "Scheduled", "Landed 14:46" or "Unknown";
 - a pill whose status differs from FR24's flight list is replaced; one that agrees is left alone.
 
+![Seven mock flights on an aircraft history page, one per status](docs/statuses.png)
+
 Every status pill is coloured by its status:
 
 | Status | Pill |
